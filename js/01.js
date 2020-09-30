@@ -11,7 +11,7 @@ function arrayDiff(a, b) {
           a.splice(i,1);
       }
   }
-  return a;
+  return console.log(a);
 }
 
 arrayDiff([1,2],[1]) //== [2]
